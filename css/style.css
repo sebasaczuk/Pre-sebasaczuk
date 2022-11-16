@@ -1,0 +1,127 @@
+{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(6, 6, 100);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+nav li a:hover{
+    text-decoration: underline;
+    font-size: 125%;
+}
+nav .logo{
+        padding: 10px;    
+}
+header{
+    background-image: url(../img/descarga.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    color: white;
+    font-size: 48px; 
+}
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tarjeta{
+    width: 250px;
+    border: 2px solid rgba(66, 63, 63, 0.781);
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.tarjeta:hover{
+    width: 252px;
+    font-size: 105%;
+    transition: 1s;
+}
+
+.tarjeta__titulo{
+    text-align: start;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color:rgb(6, 6, 100);
+    color:white;
+    border: none;
+    border-radius: 5px;
+}
+.btn2{
+    padding: 5px 5px;
+    background-color:white;
+    color:rgb(6, 6, 100);
+    border: none;
+    border-radius: 5px;
+}
+footer{
+    background-color: rgb(6, 6, 100);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer ul{
+    list-style-type: none;
+    display: flex;
+}
+footer li {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+.newsletter {
+
+}
+.mainpage{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    color:rgb(6, 6, 100);
+}
+form{
+    width: 450px;
+    padding: 10px;
+    justify-content: center;
+}
+.main_turnos{
+    display: flex;
+    justify-content:space-around;
+    padding: 15px;
+}
+.main_1sturnos{
+    color: rgb(6, 6, 100);
+    text-align: center;
+}
+@media(max-width: 730px) {
+    form{
+        justify-content: left;
+    }
+}
