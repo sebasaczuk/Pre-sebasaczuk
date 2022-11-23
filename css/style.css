@@ -120,8 +120,4 @@ form{
     color: rgb(6, 6, 100);
     text-align: center;
 }
-@media(max-width: 730px) {
-    form{
-        justify-content: left;
-    }
-}
+

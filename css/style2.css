@@ -11,3 +11,10 @@
     width: 500px;
     margin: auto;
 }
+.mainpage{
+    padding: 10px;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    color:rgb(6, 6, 100);
+}
