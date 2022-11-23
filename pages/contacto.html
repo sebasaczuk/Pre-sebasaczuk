@@ -12,15 +12,18 @@
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(6, 6, 100)">
             <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">
-            <img src="../img/minilogo.png" alt="Inicio" width="40" height="40">
+            <a class="navbar-brand">
+            <img src="../img/minilogo.png" href="../index.html" alt="Inicio" width="40" height="40">
           </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
                     <a class="nav-link" href="../pages/institucional.html">Institucional</a>
                 </li>
                 <li class="nav-item">
@@ -77,8 +80,7 @@
                 </button>
             </div>
         </header>
-                   
-          
+              <main>        
                 <form class="formulario" action="">
                     <h3>¡Estemos en Contacto!</h3>
                 <div>
@@ -97,9 +99,21 @@
             
             </form>
                  </table>
-                 
-
-        </main>
+               </main>
+        <footer>
+            <nav class="navbar sticky-bottom navbar-dark" style="background-color: rgb(6, 6, 100)">
+                <div class="container-fluid">
+                    <span class="navbar-text">
+                        Av. Maipu 1985 / Contact Center: 011 4567 - 9101 / turnosyconsultas@centromedico.com.ar
+                      </span>
+                      <form class="d-flex" role="email">
+                      <input class="form-control me-2" type="email" placeholder="Suscribase al Newsletter!" aria-label="Email">
+                      <button class="btn btn-sm btn-outline-secondary" type="submit" hoover="true">Suscribirse</button>
+                    </form>
+                  </div>
+            </nav>
+        </footer>       
+        
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     </body>
