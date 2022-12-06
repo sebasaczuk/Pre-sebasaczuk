@@ -81,18 +81,27 @@
         </header>
               <main>        
                 <form class="formulario" action="">
-                    <h3>¡Estemos en Contacto!</h3>
+                    <h3>Solicitud de Turnos</h3>
                 <div>
                     <label class="form-label" for="nombre"> Nombre y Apellido:</label>
-                    <input class="form-control" type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre" required>
+                    <input class="form-control" type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre Completo" required>
                 </div>
                 <div>
-                    <label class="form-label" for="email"> Correo Electronico:</label>
+                    <label class="form-label" for="dni"> DNI:</label>
+                    <input class="form-control" type="number" name="dni" id="dni" placeholder="Ingrese su DNI" required>
+                </div>
+                <div>
+                    <label class="form-label" for="email"> DNI:</label>
                     <input class="form-control" type="email" name="email" id="email" placeholder="Ingrese su Email" required>
                 </div>
                 <div>
-                    <label class="form-label" for="mensaje"> Mensaje:</label>
-                    <textarea class="form-control" id="mensaje" name="mensaje" rows="3" required></textarea>
+                    <label class="form-label" for="comboestudios">Estudios/Especialidad:</label>
+                    <select name="optionlist" onChange="combo(this, 'comboestudios')">
+                    <option>Radiografias</option>
+                    <option>Analisis de Sangre</option>
+                    <option>Tomografia Computada</option>
+                    <option>Hisopado</option>
+                    </select>
                 </div>
                 <button type="submit" class="btn btn-outline-danger">Enviar</button>
             
