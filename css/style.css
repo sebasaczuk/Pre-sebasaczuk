@@ -1,26 +1,21 @@
 * {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 .formulario {
   width: 400px;
   margin: 10px auto;
-  padding: 10px;
-}
-.formulario div {
-  margin: 8px 0px;
-}
+  padding: 10px; }
+  .formulario div {
+    margin: 8px 0px; }
 
 .table {
   width: 500px;
-  margin: auto;
-}
+  margin: auto; }
 
 .mainpage {
   padding: 10px;
   display: grid;
   text-align: center;
   justify-content: center;
-  color: rgb(6, 6, 100);
-}/*# sourceMappingURL=style.css.map */
+  color: #060664; }
