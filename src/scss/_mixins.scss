@@ -1,0 +1,8 @@
+@mixin mainview ($alineartxt) {
+    padding: 10px;
+    display: grid;
+    text-align: $alineartxt;
+    justify-content: center;
+    color: $colorprincipal;
+    
+}
