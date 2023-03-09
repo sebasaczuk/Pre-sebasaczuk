@@ -1,10 +1,11 @@
+//Cotizador de estudios y practicas, primera entrega curso Coder. Sebastian Saczuk.
 let consulta = confirm("¿Te puedo ayudar a cotizar tu practica?")
 if (consulta === false) {
     location.href = '/index.html'
 }
 
 if (consulta === true) {
-    //Cotizador de estudios, seleccino la practica    
+    //Selecciono la practica
     let estudio = prompt("Ingresa la practica a cotizar de forma particular").toLowerCase()
     switch(estudio) {
         case "radiografias":
