@@ -1,7 +1,7 @@
 //Cotizador de estudios y practicas, primera entrega curso Coder. Sebastian Saczuk.
 let consulta = confirm("¿Te puedo ayudar a cotizar tu practica?")
 if (consulta === false) {
-    location.href = '../index.html'
+    location.href = "../index.html"
 }
 
 if (consulta === true) {
