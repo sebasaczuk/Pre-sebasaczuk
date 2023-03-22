@@ -1,6 +1,6 @@
 function calcularPrecioConIVA(importe) {
     if (typeof importe === 'number') {
-        let resultado = importe * IVA
+        let resultado = importe * IVA 
             return resultado.toFixed(2)
     } else {
         return '⛔️ Se espera un valor numérico como parámetro.'
