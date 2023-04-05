@@ -28,5 +28,4 @@ function guardarpractica() {
 formulario.addEventListener("submit", (e)=> {
    e.preventDefault()
     guardarpractica()
-  //  history.back()
 })

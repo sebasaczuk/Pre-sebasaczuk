@@ -7,7 +7,7 @@ let login = true
     if (usuario === "sebas" && passwd === "lucas") {
         alert("✅ Bienvenido a la central de Resultados!")
         login = false
-        //break 
+        location.href = 'resultados1.html' 
    } else {
         alert("⛔️ No se reconoce usuario y/o contraseña.")
     }
