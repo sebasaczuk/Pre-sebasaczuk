@@ -8,7 +8,7 @@ function actualizoStorage() {
     }
  }
 
-//Con esto recupero lo guardado en webstorage, y lo cargo
+//Con esto recupero lo guardado en localstorage, y lo cargo
 //en la constante practica1.
 function recuperoStorage() {
     let practica1String = localStorage.getItem("practica1")

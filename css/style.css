@@ -1,4 +1,4 @@
-* {
+*{
   margin: 0;
   padding: 0; }
 
@@ -18,4 +18,5 @@
   display: grid;
   text-align: center;
   justify-content: center;
+  list-style-type: none;
   color: #060664; }

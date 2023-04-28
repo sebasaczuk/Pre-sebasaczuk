@@ -2,7 +2,7 @@ const selectPropiedad = document.querySelector("select#practica2")
 const inputPersonas4 = document.querySelector("input#personas4")
 const btnCotizar = document.querySelector("button.button.button-outline")
 const valorPractica = document.querySelector("span#valorPractica")
-
+const btnCheckout = document.querySelector("button.btn-checkout")
 
 // Cargo los comboselect
 function cargarCombo(select, array) {
@@ -30,4 +30,3 @@ function realizarCotizacion() {
 btnCotizar.addEventListener("click", ()=> {
     realizarCotizacion()
 })
-
