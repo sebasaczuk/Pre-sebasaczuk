@@ -7,9 +7,9 @@ credenciales.addEventListener('submit', function(event) {
     passwd = document.getElementById('password').value
     
     if (usuario === "sebas" && passwd === "lucas") {
-        alert("✅ Bienvenido a la central de Resultados!")
+        alert("✅ Bienvenido al backend de Turnos!")
         login = false
-        location.href = 'resultados1.html' 
+        location.href = 'm_agenda.html' 
    } else {
         alert("⛔️ No se reconoce usuario y/o contraseña.")
         break

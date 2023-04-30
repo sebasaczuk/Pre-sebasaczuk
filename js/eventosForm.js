@@ -3,7 +3,7 @@ const inputNombre = document.querySelector("#inputNombre")
 const inputtramite = document.querySelector("#inputtramite")
 const formulario = document.querySelector("form")
 
-const crearID = ()=> parseInt(Math.random() * 9_000 + 1000) //para crear ID dinámico
+const crearID = ()=> parseInt(Math.random() * 9_000 + 1000) //Genero un ID aleatorio
 
 recuperoStorage() //si existe un array en LS, lo recupero y almaceno en la constante 
 

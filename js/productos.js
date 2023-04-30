@@ -1,7 +1,6 @@
 const practica1 = []
 
-
-//Guardo en webstorage
+//Guardo en localstorage
 function actualizoStorage() {
    if (practica1.length > 0) {
       localStorage.setItem("practica1", JSON.stringify(practica1))

@@ -1,10 +1,11 @@
-const form = document.getElementById('campo-email')
+//voy a buscar el form y meto la info en una constante
+const form = document.getElementById('contact-form')
 
 form.addEventListener('submit', function(event) {
   event.preventDefault()
 
   const formData = new FormData(form);
-
+//Me conecto a la API y mando la info con un POST
   fetch('https://644a71a779279846dce8ce37.mockapi.io/Datos', {
     method: 'POST',
     headers: {
@@ -19,7 +20,7 @@ form.addEventListener('submit', function(event) {
     form.reset()
   })
   .catch(error => {
-    console.error('Error al enviar los datos:', error);
+    console.error('Error al enviar los datos:', error)
     alert('Lo siento, ha ocurrido un error. Por favor, inténtalo de nuevo más tarde.')
   })
 })
